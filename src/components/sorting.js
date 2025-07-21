@@ -30,7 +30,6 @@ export function initSorting(columns) {
         }
       });
     }
-
     return sortCollection(data, field, order);
   };
 }
